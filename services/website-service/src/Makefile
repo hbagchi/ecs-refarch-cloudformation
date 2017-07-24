@@ -8,8 +8,8 @@ all: run
 # or to publish the :latest version to the specified registry as :1.0.0, run:
 # $ make publish version=1.0.0
 
-name = ecs-refarch-cloudformation/website-service
-registry = 275396840892.dkr.ecr.us-east-1.amazonaws.com
+name = awslabs/website
+registry = 912732197994.dkr.ecr.us-east-1.amazonaws.com
 version ?= latest
 
 binary:
